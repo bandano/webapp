@@ -25,4 +25,10 @@ app.get('/about', (req,res) => {
 	res.render('about')
 })
 
+app.get('/customise', (req,res) => {
+	res.render('customise')
+})
+
+
+
 app.listen(port, () => console.log(`app listening on port ${port}`))
