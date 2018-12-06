@@ -29,6 +29,8 @@ app.get('/customise', (req,res) => {
 	res.render('customise')
 })
 
-
+app.get('/checkout', (req,res) => {
+	res.render('checkout')
+})
 
 app.listen(port, () => console.log(`app listening on port ${port}`))
